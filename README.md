@@ -3,7 +3,7 @@
 
 Snaha o vytvoření Dash aplikace, která bude co nejvíce podobná Tableau dashboardu.
 
-![Něco](tableau_to_dash.png)
+![My Image Description](tableau_to_dash.png)
 
 [Minutová ukázka](https://github.com/pavlinak7/tableau_to_dash/blob/main/tableau_to_dash_ukazka.mkv) 
 
