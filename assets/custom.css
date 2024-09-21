@@ -1,0 +1,775 @@
+.radek1 {
+    width: 1400px;
+    height: 800px;
+    /*border: 2px solid blue;*/
+    background-color: rgb(85, 85, 85);
+    padding: 0;
+    gap: 0; /* ensures no space between flex items (columns) */
+    display: flex; /* turns the container into a flexbox, allowing the child elements (columns) to align themselves flexibly within it. */
+    justify-content: space-between;  /* positions the child elements (columns) as far apart as possible, with space distributed evenly between them. */
+    align-items: stretch; /* Stretch both columns to full height */
+    box-sizing: border-box;  /* ensures that padding and border are included in the element’s total width and height, preventing layout overflow.  */
+}
+
+/* ------------------------------------------------------ */
+.oblastB {
+    /*border: 2px dashed yellow;*/
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* stack child elements vertically inside this container. */
+    box-sizing: border-box; /* Include border and padding in the element’s width/height */
+}
+
+.sloupecS1 {
+    flex: 0 0 8%;
+    padding: 20px;
+
+}
+
+.sloupecS2 {
+    flex: 0 0 92%;
+}
+/* ------------------------------------------------------ */
+
+.S1R1 {
+    /*border: 2px solid blue;*/
+    background-color: black;
+    /*padding: 0;*/
+    /*gap: 0;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.S1R1S1{
+    /*border: 2px dashed yellow;*/
+    border-radius: 10px;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* stack child elements vertically inside this container. */
+    box-sizing: border-box; /* Include border and padding in the element’s width/height */
+    height: 100%; /* Ensure that it can expand based on the content */
+    /*margin: 0;*/
+}
+
+.S1R1S1R1p{
+    /*border: 2px solid blue;*/
+    border-radius: 10px;
+    /*height: 50px;*/
+    margin: 0;
+    display: flex; /* turns the container into a flexbox, allowing the child elements (columns) to align themselves flexibly within it. */
+    box-sizing: border-box;  /* ensures that padding and border are included in the element’s total width and height, preventing layout overflow.  */
+    align-items: center; /* Align content vertically within the row */
+    /*padding: 0;*/
+    /*margin-bottom: 20px;  Optional: Add spacing between rows if necessary */
+}
+
+.S1R1S1R1S1p{
+    /*border: 2px dashed yellow;*/
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex; /* Make the column a flex container */
+    flex-direction: column; /* Set the flex direction to column */
+    justify-content: center; /* Ensure child elements take full height */
+    align-items: center; /* Center child elements horizontally */
+    height: 100%; /* Ensure the column takes full height of its container */
+    padding:5px;
+    /*margin: 0;*/
+}
+
+.B1E1div {
+    height: 100%;
+    width: 100%;
+}
+
+.B1E1obr {
+    display: block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    object-fit: contain;
+}
+/* ------------------------------------------------------ */
+
+.S2R1 {
+    /*border: 2px solid blue;*/
+    /*height: 9%;*/
+    box-sizing: border-box;
+    padding-right: 20px;
+    display: flex;
+    align-items: stretch;
+    /*justify-content: space-between;
+    align-items: center;
+    margin: 0;*/
+}
+
+.S2R1S1{
+    /*border: 2px dashed yellow;*/
+    padding: 0px;
+    display: flex;
+    flex-direction: column; /* stack child elements vertically inside this container. */
+    box-sizing: border-box;
+}
+
+.S2R1S1R1{
+    /*border: 2px solid blue;*/
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.S2R1S1R1S1{
+    /*border: 2px dashed yellow;*/
+    box-sizing: border-box;
+    display: flex; /* Make the column a flex container */
+    flex-direction: column; /* Set the flex direction to column */
+    justify-content: stretch; /* Ensure child elements take full height */
+    height: 100%; /* Ensure the column takes full height of its container */
+    padding: 0;
+    flex: 0 0 40%;
+}
+
+.S2R1S1R1S1div{
+    /*border: 2px solid green;*/
+    text-align: left;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    width: 100%;  /* This part is correct for width */
+    flex-grow: 1;  /* This allows it to grow in height */
+    height: 100%;  /* Ensure it takes full height of column */
+    box-sizing: border-box; /* Make sure padding doesn't affect height */
+    display: flex; /* Flex container */
+    align-items: center; /* Center content vertically */
+    align-items: baseline;  /* Keep baseline alignment */
+    justify-content: flex-start;
+    flex-direction: row;
+    line-height: 1;  /* Ensures uniform line height */
+    padding-top: 25px;
+}
+
+.S2R1S1R1S2{
+    /*border: 2px dashed yellow;*/
+    box-sizing: border-box;
+    display: flex; /* Make the column a flex container */
+    flex-direction: column; /* Set the flex direction to column */
+    justify-content: stretch; /* Ensure child elements take full height */
+    height: 100%; /* Ensure the column takes full height of its container */
+    flex: 0 0 55%;
+}
+
+.S2R1S1R1S2R1{
+    /*border: 2px solid blue;*/
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.S2R1S1R1S2R1S1{
+    /*border: 2px dashed yellow;*/
+    background-color: black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.S2R1S1R1S2R1S1R2{
+    /*border: 2px solid blue;*/
+    background-color: black;
+    box-sizing: border-box;
+    height: 70%;
+}
+
+.S2R1S1R1S2R1S1R1S1{
+    /*border: 2px dashed yellow;*/
+    /*box-sizing: border-box;
+    justify-content: stretch;  Ensure child elements take full height */
+    display: flex; /* Make the column a flex container */
+    flex-direction: column; /* Set the flex direction to column */
+    height: 100%; /* Ensure the column takes full height of its container */
+    flex: 0 0 25%;
+    /*padding: 10px;*/
+    /*padding-top: 0px;*/
+    /* Keep the parent container flex, but ensure width fits the button */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative; /* Ensure this is the reference for the dropdown */
+    width: auto; /* Make sure the width adapts to its content */
+}
+
+.S2R1S1R1S3{
+    /*border: 2px dashed yellow;*/
+    box-sizing: border-box;
+    display: flex;  /*Make the column a flex container */
+    flex-direction: column;  /*Set the flex direction to column */
+    justify-content: center;   /* Center child elements vertically */
+    align-items: center; /* Center child elements horizontally */
+   height: 100%;  /* Ensure the column takes full height of its container */
+    flex: 0 0 5%;
+    padding: 0;
+}
+
+.B2D3button{
+    /*font-size: 12px;
+    font-family: "Times New Roman", Times, serif; */
+    height: 20px;
+    height: 20px;
+}
+
+.S2R1S1R1S2R1S1R1{
+    /*border: 2px solid blue;*/ 
+    background-color: black;
+    box-sizing: border-box;
+    height: 30%;
+}
+
+.B2E1F1div{
+    /*border: 2px solid green;*/
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    font-family: "Times New Roman", Times, serif;
+    width: 100%;  /* This part is correct for width */
+    flex-grow: 1;  /* This allows it to grow in height */
+    height: 100%;  /* Ensure it takes full height of column */
+    box-sizing: border-box; /* Make sure padding doesn't affect height */
+}
+/* ------------------------------------------------------ */
+
+.S2R2S1{
+    /*border: 2px dashed yellow;*/
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 10px;
+    flex: 0 0 30%;
+}
+
+.S2R2S1R1{
+    /*border: 2px solid blue;*/
+    border-radius: 10px;
+    height: 100%;
+    background-color: black;
+    margin: 0;
+    display: flex;
+    align-items: stretch;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.S2R2S1R1S1{
+    /*border: 2px dashed yellow;*/
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.S2R2S1R1S1R1{
+    /*border: 2px solid blue;*/
+    border-radius: 10px;
+    height: 40px;
+    align-items: stretch;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.S2R2S1R1S1R1S1{
+    /*border: 2px dashed yellow;*/
+    border-radius: 10px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.S2R2S2R2S1R1S1R2S1R1{
+    /*border: 2px solid blue;*/
+    border-radius: 10px;
+    height: 12%;
+    display: flex;
+    /* align-items: stretch; */
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+}
+
+.S2R2S1R1S1R1S1div{
+    /*border: 2px solid green;*/
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    flex-grow: 1;
+    box-sizing: border-box;
+}
+
+.S2R2S1R1S1R1S1text{
+    /*border: 2px solid purple;*/
+    text-align: left;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.S2R2S1R1S1R1S1textin{
+    /*/*border: 2px solid purple;*/*/
+    text-align: center;
+    font-size: 12px;
+    color: grey;
+    font-family: "Times New Roman", Times, serif;
+    height: 25px;
+}
+
+.B2D4divG4 {
+    width: 95%;
+    /* Simulating horizontal line with bottom border */
+    border-bottom: 0.3px solid white;
+    /* Scale it down to make it 0.5px */
+    transform: scaleY(0.5);
+    transform-origin: bottom; /* Ensure it scales from the bottom */
+    margin: 0 auto;
+}
+
+.S2R2S1R1S1R1in{
+    /*border: 2px solid blue;*/
+    border-radius: 10px;
+    /*height: 100px;*/
+    align-items: stretch;
+    display: flex;
+    box-sizing: border-box;
+    /*margin: 0;*/
+    /* padding: 0;*/
+}
+
+.B2D4divG3 {
+    /*border: 2px solid purple;*/
+    height: 38px;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+}
+
+.S2R2S1R1S1R2{
+    /*border: 2px solid blue;*/
+    border-radius: 10px;
+    /*height: 140px;*/
+    align-items: stretch;
+    display: flex;
+    box-sizing: border-box;
+    /*padding-top: 20px;*/
+}
+
+.S2R2S1R1S1R1S2{
+    /*border: 2px dashed yellow;*/
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 100%; /* Ensure it takes the full height of its container */
+    /*padding-top: 10px;*/
+    /*flex: 0 0 75%;*/
+
+}
+
+.S2R2S2R1S1R1S1R2S1R2grafy{
+    /*border: 2px solid blue;*/
+    border-radius: 10px;
+    display: flex;
+    /* align-items: stretch; */
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.S2R2S1R1S1R1S1graf{
+    /*border: 2px dashed yellow;*/
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0;
+    height: 100%;
+    /*justify-content: center;*/
+}
+
+.S2R2S1R1S1R4{
+    /*border: 2px solid blue;*/
+    border-radius: 10px;
+    height: 40px;
+    align-items: stretch;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.S2R2S1R1S1R1S2div{
+    /*border: 2px solid purple;*/
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    /*padding: 10px;*/
+}
+
+.S2R2S2{
+    /*border: 2px dashed yellow;*/
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    box-sizing: border-box;
+    flex: 0 0 70%;
+}
+
+.S2R2S2R1{
+    /*border: 2px solid blue;*/
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+    box-sizing: border-box;
+}
+
+.S2R2S2R1S1{
+    /*border: 2px dashed yellow;*/
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.S2R2S2R1S1R1{
+    /*border: 2px solid blue;*/
+    border-radius: 10px;
+    background-color: black;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: stretch;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.S2R2S2R1S1R1S1{
+    /*border: 2px dashed yellow;*/
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.S2R2S2R1S1R1S1R2{
+    /*border: 2px solid blue;*/
+    border-radius: 10px;
+    height: 87%;
+    display: flex;
+    align-items: stretch;
+    box-sizing: border-box;
+}
+
+.S2R2S2R1S1R1S1R2S1R2{
+    /*border: 2px solid blue;*/
+    border-radius: 10px;
+    height: 88%;
+    display: flex;
+    /* align-items: stretch; */
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+}
+
+.S2R2S2R2S1R1S1R2S1{
+    /*border: 2px dashed yellow;*/
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0;
+   /* margin: 0; */
+}
+
+/* ---------------------------------------------------------------------------- */
+/* DROPDOWN */
+/* Make sure the parent container of the dropdown button and menu has defined width */
+.dropdown-container {
+    position: relative; /* Make sure the container is the reference point */
+    width: 100%;
+    box-sizing: border-box;
+    /* Ensures the parent container fills available space */
+}
+
+/* Custom CSS for the Dropdown Button */
+.dropdown-button {
+    background-color: rgb(85, 85, 85); /* Background color of the button */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    width: auto; /* Button width auto to fit content */
+    text-align: left; /* Align text to the left */
+    padding: 5px; /* Padding inside the button */
+    font-size: 10px; /* Font size of the button text */
+    cursor: pointer; /* Pointer cursor on hover */
+    display: flex; /* Flexbox for aligning text and arrow */
+    align-items: center; /* Center content vertically */
+    justify-content: space-between; /* Space between text and arrow */
+}
+
+/* Custom CSS for the Dropdown Arrow */
+.dropdown-arrow::before {
+    content: "\25BC"; /* Unicode for down arrow */
+    font-size: 12px; /* Adjust size of the arrow */
+    margin-left: 5px; /* Space between text and arrow */
+    color: white; /* Arrow color */
+}
+
+/* Custom CSS for the Dropdown Menu */
+.dropdown-menu {
+    background-color: rgb(85, 85, 85);
+    position: absolute;
+    top: 67%; /* Position the menu just below the button */
+    /*margin-top: -5px; */  /*funguje to, ale ideální řešení to asi néni*/
+    left: 12px;
+    width: 86.5%; /* This will inherit the button's width from the container */
+    z-index: 1000;
+    border: 1px solid #ccc;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    border-radius: 0;
+    min-width: unset;
+    display: none; /* Initially hidden */
+}
+
+/* Style for the Checklist Inputs (Checkboxes) */
+.dropdown-menu input {
+    margin-right: 5px; /* Space between checkbox and label */
+    transform: scale(1.2); /* Scale up the size of the checkboxes */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Style for the Checklist Labels */
+.dropdown-menu label {
+    display: block; /* Display each label as a block (one per line) */
+    padding: 5px; /* Padding inside each label */
+    color: white; /* Text color */
+}
+
+/* Hover Effect for Labels */
+.dropdown-menu label:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light background on hover */
+}
+
+/* ---------------------------------------------------------------------------- */
+
+/* 2. strana */
+/* Custom CSS for the Dropdown Button */
+.dropdown-button_strana2 {
+    background-color: rgb(85, 85, 85); /* Background color of the button */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    width: 100%; /* Button width */
+    text-align: left; /* Align text to the left */
+    padding: 5px; /* Padding inside the button */
+    font-size: 10px; /* Font size of the button text */
+    cursor: pointer; /* Pointer cursor on hover */
+    display: flex; /* Flexbox for aligning text and arrow */
+    align-items: center; /* Center content vertically */
+    justify-content: space-between; /* Space between text and arrow */
+}
+
+/* Custom CSS for the Dropdown Arrow */
+.dropdown-arrow_strana2::before {
+    content: "\25BC"; /* Unicode for down arrow */
+    font-size: 12px; /* Adjust size of the arrow */
+    margin-left: 5px; /* Space between text and arrow */
+    color: white; /* Arrow color */
+}
+
+/* Custom CSS for the Dropdown Menu */
+.dropdown-menu_strana2 {
+    background-color: rgb(85, 85, 85);
+    /* Background color of the dropdown menu */
+    position: absolute;
+    /* Absolute positioning to overlap content */
+    width: 9.4%;
+    /* Ensure the dropdown menu width matches the button width */
+    z-index: 1000;
+    /* Ensure it appears above other elements */
+    border: 1px solid #ccc;
+    /* Border around the dropdown */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    /* Shadow for the dropdown menu */
+    padding: 5px;
+    /* Padding inside the dropdown menu */
+    border-radius: 0;
+    min-width: unset;
+        /* Reset any minimum width that could be overriding the 100% width */
+}
+
+/* Style for the Checklist Inputs (Checkboxes) */
+.dropdown-menu_strana2 input {
+    margin-right: 5px; /* Space between checkbox and label */
+    transform: scale(1.2); /* Scale up the size of the checkboxes */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Style for the Checklist Labels */
+.dropdown-menu_strana2 label {
+    display: block; /* Display each label as a block (one per line) */
+    padding: 5px; /* Padding inside each label */
+    color: white; /* Text color */
+}
+
+/* Hover Effect for Labels */
+.dropdown-menu_strana2 label:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light background on hover */
+}
+/* ---------------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------------- */
+/* General styling for the Salary RangeSlider */
+#input-salary .rc-slider {
+    background-color: transparent;  /* Transparent background for clean look */
+}
+
+#input-salary .rc-slider-track {
+    background-color: #a9a9a9;  /* Gray track for selected range */
+    height: 4px;  /* Thinner track */
+}
+
+#input-salary .rc-slider-handle {
+    background-color: white;  /* White rounded handles */
+    border: 2px solid #ccc;  /* Subtle border on the handles */
+    height: 18px;  /* Size of the handle */
+    width: 18px;
+    margin-top: -7px;  /* Align handle vertically */
+}
+
+#input-salary .rc-slider-handle:hover {
+    border-color: #666;  /* Darker border on hover */
+}
+
+#input-salary .rc-slider-handle:active {
+    border-color: #666;  /* Active state */
+}
+
+#input-salary .rc-slider-mark-text {
+    font-size: 10px;  /* Adjusted to a smaller font size */
+    color: #ddd;      /* Light gray text color */
+}
+
+#input-salary .rc-slider-mark-text:first-of-type,
+#input-salary .rc-slider-mark-text:last-of-type {
+    font-weight: bold;  /* Bold font for boundary values */
+    color: #ffffff;  /* Clear white text color for boundaries */
+}
+
+#input-salary .rc-slider-rail {
+    background-color: #666;  /* Darker rail for unselected range */
+    height: 4px;  /* Thinner rail */
+}
+/* ---------------------------------------------------------------------------- */
+#input-length .rc-slider {
+    background-color: transparent;  /* Transparent background for clean look */
+}
+
+#input-length .rc-slider-track {
+    background-color: #a9a9a9;  /* Gray track for selected range */
+    height: 4px;  /* Thinner track */
+}
+
+#input-length .rc-slider-handle {
+    background-color: white;  /* White rounded handles */
+    border: 2px solid #ccc;  /* Subtle border on the handles */
+    height: 18px;  /* Size of the handle */
+    width: 18px;
+    margin-top: -7px;  /* Align handle vertically */
+}
+
+#input-length .rc-slider-handle:hover {
+    border-color: #666;  /* Darker border on hover */
+}
+
+#input-length .rc-slider-handle:active {
+    border-color: #666;  /* Active state */
+}
+
+#input-length .rc-slider-mark-text {
+    font-size: 12px;  /* Smaller font size */
+    color: #ddd;  /* Light gray text color */
+}
+
+#input-length .rc-slider-mark-text:first-of-type,
+#input-length .rc-slider-mark-text:last-of-type {
+    font-weight: bold;  /* Bold font for boundary values */
+    color: #ffffff;  /* Clear white text color for boundaries */
+}
+
+#input-length .rc-slider-rail {
+    background-color: #666;  /* Darker rail for unselected range */
+    height: 4px;  /* Thinner rail */
+}
+/*--------------------------------------------------------------------------------*/
+
+
+
+/*.S1R1S1R1{
+    border: 2px solid blue;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 45px;
+}*/
+
+/*.S1R1S1R1S1{
+    border: 2px dashed yellow;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    height: 100%;
+    padding: 0;
+}*/
+
+/*.S2R2 {
+    border: 2px solid blue;
+    height: 91%;
+    display: flex;
+    align-items: stretch;
+    box-sizing: border-box;
+}*/
+
+/*.S2R2S2R1S1R1S1R1{
+    border: 2px solid blue;
+    border-radius: 10px;
+    height: 13%;
+    align-items: stretch;
+    display: flex;
+    box-sizing: border-box;
+}*/
+
+/*.B2D1div {
+border: 2px solid green;
+text-align: left;
+color: white;
+background-color: rgb(85, 85, 85);
+height: 100%;
+font-family: "Times New Roman",
+Times,
+serif;
+}*/
+
+
+
+
+
+
+
