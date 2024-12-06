@@ -1,7 +1,7 @@
 # tableau_to_dash
 
 
-Snaha o vytvoření Dash aplikace, která bude co nejvíce podobná Tableau dashboardu.
+Snaha o vytvoření Dash aplikace, která bude co nejvíce podobná Tableau dashboardu.  
 
 ![My Image Description](tableu_to_dash.png)
 
